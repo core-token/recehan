@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 
 // File: @openzeppelin/contracts@4.8.1/utils/Context.sol
 
@@ -232,8 +234,6 @@ interface IERC20Metadata is IERC20 {
 // OpenZeppelin Contracts (last updated v4.8.0) (token/ERC20/ERC20.sol)
 
 pragma solidity ^0.8.0;
-
-
 
 
 /**
@@ -621,7 +621,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 
 pragma solidity ^0.8.9;
-
 
 
 contract Recehan is ERC20, Ownable {
